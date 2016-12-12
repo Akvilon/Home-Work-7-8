@@ -14,6 +14,7 @@
 }
 
 
+
 						/*HEADER*/
 
 /*Header hat*/
@@ -22,6 +23,7 @@
 
 .header__hat {
 	height: 203px;
+	min-width: 320px;
 	max-width: 480px;
 	display: inline;
 }
@@ -223,6 +225,7 @@
 
 .header__body__info {
 	height: 246px;
+	min-width: 320px;
 	max-width: 480px;
 	display: flex;
 	margin: auto;
@@ -297,6 +300,8 @@
 	display: none;
 }
 
+/*Header Image*/
+
 .header__img {
 	height: 246px;
 	width: 40%;
@@ -310,6 +315,8 @@
 .img_480px {
 	display: block;
 	position: absolute;
+	width: 100%;
+	height: auto;
 	top: -9px;
 	left: -16%;
 }
@@ -322,6 +329,7 @@
 
 .header__bottom {
 	height: 97px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: auto;
 }
@@ -379,6 +387,7 @@ input[type="radio"]:checked + label:before {
 
 .content__header__info {
 	height: 597px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: auto;
 	display: inline;
@@ -573,6 +582,7 @@ input[type="radio"]:checked + label:before {
 
 .content__body__info {
 	height: 786px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: auto;
 	background: #f9f9f9;
@@ -931,6 +941,7 @@ input[type="radio"]:checked + label:before {
 
 .content__icons {
 	height: 232px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: auto;
 	display: flex;
@@ -1005,6 +1016,7 @@ input[type="radio"]:checked + label:before {
 
 .footer__header_box {
 	height: 668px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: 0 auto;
 	display: inline;
@@ -1138,6 +1150,7 @@ input[type="radio"]:checked + label:before {
 
 .footer__bottom_box {
 	height: 201px;
+	min-width: 320px;
 	max-width: 480px;
 	margin: 0 auto;
 	display: block;

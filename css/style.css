@@ -283,6 +283,8 @@ footer {
 	display: none;
 }
 
+/*Header Image*/
+
 .header__img {
 	height: 400px;
 	width: 40%;
@@ -617,6 +619,27 @@ input[type="radio"]:checked + label:before {
 .inner_text_for_768px {
 	display: none;
 }
+
+/*Inner Triangle*/
+
+.triangle {
+	position: absolute;
+	top: 260.2px;
+	left: 85%;
+	color: #fff;
+	font-size: 3rem;
+	text-shadow: 0px 1px 0px rgba(239, 239, 239, 1);
+}
+
+.inner_article:after {
+	content:'';
+	position: absolute;
+	height: 20px;
+	border: 0.5px solid #efefef;
+	top: 272px;
+	left: 91%;
+}
+
 
 /*Body Slider*/
 
@@ -1033,6 +1056,7 @@ footer {
 	color: #c5c5c5;
 	margin-top: 10px;
 	margin-left: -1%;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 1);
 }
 
 .col_1_txt_2 {

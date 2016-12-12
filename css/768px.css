@@ -255,9 +255,11 @@
 	letter-spacing: -0.05px;
 }
 
+/*Header Image*/
+
 .header__img {
 	height: 400px;
-	width: 40%;
+	width: 35.7%;
 	position: relative;
 }
 
@@ -271,9 +273,11 @@
 
 .img_768px {
 	display: block;
+	width: 100%;
+	height: auto;
 	position: absolute;
 	top: -23px;
-	left: -4.6%;
+	left: -4.7%;
 }
 
 /*Header Bottom*/
