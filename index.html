@@ -6,8 +6,14 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/768px.css" media="screen and (max-width: 784px)">
-	<link rel="stylesheet" href="css/480px.css" media="screen and (max-width: 480px) and (min-width: 320px)">
+	<link rel="stylesheet" href="css/480px.css" media="screen and (max-width: 480px)">
 	<link rel="stylesheet" href="css/320px.css" media="screen and (max-width: 320px)">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie8.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 	<title>Home Work 7</title>
 </head>
 <body>
@@ -48,15 +54,9 @@
 				<section class="header__body__info">	
 					<article class="header__text">
 						<h1 class="header__text_title">Lorem Ipsum Dolor</h1>
-						<h1 class="header__text_title_320px">Lorem Ipsum Dolor</h1>
-						<h1 class="header__text_title_480px">Lorem Ipsum Dolor</h1>
-						<h1 class="header__text_title_768px">Lorem Ipsum Dolor</h1>
-
-						<h2 class="header__text_small_title">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h2>
-						<h2 class="header__text_small_title_320px">IT WILL MAKE ALL OF YOUR DREAMS COME</h2>
-						<h2 class="header__text_small_title_480px">IT WILL MAKE ALL OF YOUR DREAMS COME</h2>
-						<h2 class="header__text_small_title_768px">IT WILL MAKE ALL OF YOUR DREAMS COME</h2>
-
+						
+						<h2 class="header__text_small_title">IT WILL MAKE ALL OF YOUR DREAMS COME <span class="true">TRUE</span></h2>
+						
 						<p class="header__text_text">Semper sollicitudin gravida eget, vestibulum sit amet sapien.<br>
 						   Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam<br>
 						   venenatis hendrerit est at volutpat. Morbi elementum euismod<br>
@@ -185,12 +185,7 @@
 					<aside class="content__body__aside_left">
 						<article class="inner_article">
 							<img src="img/icons/content_icon_1.png" alt="icon">
-							<h2 class="inner_heading"><span class="name_1">PINGBULLER</span><span class="name_2"> STARTS HERE</span></h2>
-							<h2 class="inner_heading_320px_first">PINGBULLER</h2>
-							<h2 class="inner_heading_320px_second">STARTS HERE</h2>
-							<h2 class="inner_heading_480px"><span class="name_1_480px">PINGBULLER</span><span class="name_2_480px"> STARTS HERE</span></h2>
-							<h2 class="inner_heading_768px_first">PINGBULLER</h2>
-							<h2 class="inner_heading_768px_second">STARTS HERE</h2>
+							<h2 class="inner_heading_first">PINGBULLER<span class="inner_heading_second"> STARTS HERE</span></h2>
 
 							<p class="inner_text">"Nunc turpis neque, feugiat eget eleifend et,<br>
 							lacinia non neque. Praesent rhoncus ultrices po-<br>
@@ -223,8 +218,6 @@
 							convallis auctor. Nam vitae lectus<br>
 							eu libero pellentesque pulvinar</p>
 
-							<span class="triangle">&#9701;<span>
-
 						</article>
 					
 						<form class="header__bottom__slider body--slider" action="#" method="post">
@@ -241,62 +234,22 @@
 					</aside>
 					<aside class="content__body__aside_right">
 						<h2 class="right__aside__heading">RECENT UPDATES</h2>
-						<h2 class="right__aside__heading_320px">RECENT UPDATES</h2>
-						<h2 class="right__aside__heading_480px">RECENT UPDATES</h2>
-						<h2 class="right__aside__heading_768px">RECENT UPDATES</h2>
-
-						<img class="aside_img img_1" src="img/icons/content_icon_2.png" alt="content icon">
-						<img class="aside_img_for_320px img_320px_1" src="img/icons/content_icon_320px_1.png" alt="content icon">
-						<img class="aside_img_for_480px img_480px_1" src="img/icons/content_icon_480px_1.png" alt="content icon">
-						<img class="aside_img_for_768px img_768px_1" src="img/icons/content_icon_768px_1.png" alt="content icon">
-
-						<img class="aside_img img_2" src="img/icons/content_icon_3.png" alt="content icon">
-						<img class="aside_img_for_320px img_320px_2" src="img/icons/content_icon_320px_2.png" alt="content icon">
-						<img class="aside_img_for_480px img_480px_2" src="img/icons/content_icon_480px_2.png" alt="content icon">
-						<img class="aside_img_for_768px img_768px_2" src="img/icons/content_icon_768px_2.png" alt="content icon">
-
-						<img class="aside_img img_3" src="img/icons/content_icon_4.png" alt="content icon">
-						<img class="aside_img_for_320px img_320px_3" src="img/icons/content_icon_320px_3.png" alt="content icon">
-						<img class="aside_img_for_480px img_480px_3" src="img/icons/content_icon_480px_3.png" alt="content icon">
-						<img class="aside_img_for_768px img_768px_3" src="img/icons/content_icon_768px_3.png" alt="content icon">
-
+					
 						<ul class="aside_right_list">
-							<li class="aside_right_item_1"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							<li class="aside_right_item_1_320px"><a href="#">Nunc turpis neque</a></li>
-							<li class="aside_right_item_1_480px"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							<li class="aside_right_item_1_768px"><a href="#">Nunc turpis neque feugiat eget</a></li>
+							<li class="aside_right_item_1"><a class="aside_right_item_link aside_right_link_1" href="#">Nunc turpis neque feugiat eget</a></li>
+							<li class="aside_right_item_2">Posted by Admin on March 13 2012 in Resent News</li>
 
-							<p class="aside_right_text_1">Posted by Admin on March 13 2012 in Resent News</p>
-							<p class="aside_right_text_1_320px">Posted by Admin on March 13</p>
-							<p class="aside_right_text_1_480px">Posted by Admin on March 13 2012</p>
-							<p class="aside_right_text_1_768px">Posted by Admin on March 13 2012</p>
+							<li class="aside_right_item_3"><a class="aside_right_item_link aside_right_link_2" href="#">Nunc turpis neque feugiat eget</a></li>
+							<li class="aside_right_item_4">Posted by Admin on March 13 2012 in Category</li>
 
-							<li class="aside_right_item_2"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							<li class="aside_right_item_2_320px"><a href="#">Nunc turpis neque</a></li>
-							<li class="aside_right_item_2_480px"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							<li class="aside_right_item_2_768px"><a href="#">Nunc turpis neque feugiat eget</a></li>
-
-							<p class="aside_right_text_2">Posted by Admin on March 13 2012 in Resent News</p>
-							<p class="aside_right_text_2_320px">Posted by Admin on March 13</p>
-							<p class="aside_right_text_2_480px">Posted by Admin on March 13 2012</p>
-							<p class="aside_right_text_2_768px">Posted by Admin on March 13 2012</p>
-
-							<li class="aside_right_item_3"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							<li class="aside_right_item_3_320px"><a href="#">Nunc turpis neque</a>></li>
-							<li class="aside_right_item_3_480px"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							<li class="aside_right_item_3_768px"><a href="#">Nunc turpis neque feugiat eget</a></li>
-							
-							<p class="aside_right_text_3">Posted by Admin on March 13 2012 in Resent News</p>
-							<p class="aside_right_text_3_320px">Posted by Admin on March 13</p>
-							<p class="aside_right_text_3_480px">Posted by Admin on March 13 2012</p>
-							<p class="aside_right_text_3_768px">Posted by Admin on March 13 2012</p>
-							
+							<li class="aside_right_item_5"><a class="aside_right_item_link aside_right_link_3" href="#">Nunc turpis neque feugiat eget</a></li>
+							<li class="aside_right_item_6">Posted by Admin on March 13 2012 in Blog Updates</p>
 						</ul>
 
 						<p class="aside_right_link_box"><a href="">READ MORE HERE</a></p>
 						<p class="aside_right_link_box_320px"><a href="">MORE BLOG POSTS</a></p>
-						<p class="aside_right_link_box_480px"><a href="">MORE BLOG POSTS</a></p>
-						<p class="aside_right_link_box_768px"><a href="">MORE BLOG POSTS</a></p>
+
+						
 					</aside>
 				</section>
 			</div>
@@ -322,7 +275,7 @@
 					<article class="footer__columns column_1">
 						<h2 class="column_heading heading_1">PIGBULL<span>ER</span></h2>
 						<h2 class="column_heading_480px heading_1_480px">NEWS CATEGORIES</h2>
-						<h2 class="column_heading_768px heading_1_768px">NEWS CATEGORIES</h2>
+						
 
 						<p class="column_text col_1_txt_1">Copyright 2013, Pingbull AS</p>
 
@@ -348,7 +301,7 @@
 					<article class="footer__columns column_2">
 						<h2 class="column_heading heading_2">RECENT COMMENTS</h2>
 						<h2 class="column_heading_480px heading_2_480px">NEWS CATEGORIES</h2>
-						<h2 class="column_heading_768px heading_2_768px">NEWS CATEGORIES</h2>
+					
 
 						<p class="column_text col_2_txt">Nunc turpis neque, feugiat eget eleif-<br>
 				   										 end et, lacinia non neque. Praesent<br>
@@ -373,8 +326,7 @@
 
 					<article class="footer__columns column_3">
 						<h2 class="column_heading heading_3">NEWS CATEGORIES</h2>
-						<h2 class="column_heading_480px heading_3_480px">NEWS CATEGORIES</h2>
-						<h2 class="column_heading_768px heading_3_768px">NEWS CATEGORIES</h2>
+	
 
 						<p class="column_text col_3_txt">Nunc turpis neque, feugiat eget eleif-<br>
 				   										 end et, lacinia non neque. Praesent<br>
